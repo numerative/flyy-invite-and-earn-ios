@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0A2B42EC4DECDED783FE377C87B0C7F8 /* FlyyFramework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C108E5906F12ECA21FA7E244B2A350A8 /* Build configuration list for PBXAggregateTarget "FlyyFramework" */;
+			buildPhases = (
+				94E44267B378F25BCA4F5DC3F26BC6A8 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = FlyyFramework;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		831F9F02A44080764D84C98CAFF6F6C4 /* Pods-inviteearndemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ACB1BBEFB39BDD154CB1AC3E6BC654ED /* Pods-inviteearndemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8589047AB4C2617F8C804A2D52799E95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E646E01CD23574C778FFA5AA5806315C /* Pods-inviteearndemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EFFAB7A039F06C53237E805038BBA06F /* Pods-inviteearndemo-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79F7E58063A75D423D7F439CFAE26B97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A2B42EC4DECDED783FE377C87B0C7F8;
+			remoteInfo = FlyyFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F37939505257FB0B0AE2108555FD50C /* FlyyFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlyyFramework.debug.xcconfig; sourceTree = "<group>"; };
+		200EF6BBD43062944242DAEF2A27DBBB /* FlyyFramework-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "FlyyFramework-xcframeworks.sh"; sourceTree = "<group>"; };
+		31C3125587922805D8340CA55B91489F /* FlyyFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlyyFramework.release.xcconfig; sourceTree = "<group>"; };
+		39486A7FE3AD40B404BE9F474E186453 /* Pods-inviteearndemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-inviteearndemo.modulemap"; sourceTree = "<group>"; };
+		54C36ADB85B0D7F488613C4E7EBEFA18 /* Pods-inviteearndemo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-inviteearndemo"; path = Pods_inviteearndemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		654E7A4CC879FE633EC5DF1D9F1748DF /* FlyyFramework.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = FlyyFramework.xcframework; sourceTree = "<group>"; };
+		6A332DD9286EDFD66794C806F8975541 /* Pods-inviteearndemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-inviteearndemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		6D51AAC079E0431CDF7A78AE8914D2DD /* Pods-inviteearndemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-inviteearndemo.debug.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		982A1D8F7ED07BCFB51853495BC0C9D3 /* Pods-inviteearndemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-inviteearndemo-frameworks.sh"; sourceTree = "<group>"; };
+		9C64683275482DD0E020AB27C22A8AF4 /* Pods-inviteearndemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-inviteearndemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ACB1BBEFB39BDD154CB1AC3E6BC654ED /* Pods-inviteearndemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-inviteearndemo-umbrella.h"; sourceTree = "<group>"; };
+		AEE683BA02D1690CC1B66A542A3745F9 /* Pods-inviteearndemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-inviteearndemo-Info.plist"; sourceTree = "<group>"; };
+		B3F2E8FF14F45FBB71BF5617BE053327 /* Pods-inviteearndemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-inviteearndemo.release.xcconfig"; sourceTree = "<group>"; };
+		EFFAB7A039F06C53237E805038BBA06F /* Pods-inviteearndemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-inviteearndemo-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8B4259132E0F717E94A45E53228DF65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8589047AB4C2617F8C804A2D52799E95 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B348C9C9F34761FFDC6BF633DCA222C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				200EF6BBD43062944242DAEF2A27DBBB /* FlyyFramework-xcframeworks.sh */,
+				0F37939505257FB0B0AE2108555FD50C /* FlyyFramework.debug.xcconfig */,
+				31C3125587922805D8340CA55B91489F /* FlyyFramework.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FlyyFramework";
+			sourceTree = "<group>";
+		};
+		0BBE698AA7AEE7D810CC7AF6A507680F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				654E7A4CC879FE633EC5DF1D9F1748DF /* FlyyFramework.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0DA8052FC394F4D9F8A55B5756C2571E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D70AF8FD8E24972E3AAAF880A8A553FF /* Pods-inviteearndemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7A06987889C13E3A391107B3D1257731 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54C36ADB85B0D7F488613C4E7EBEFA18 /* Pods-inviteearndemo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F3D757831BB0B5CACAF75EE04C6A510 /* FlyyFramework */ = {
+			isa = PBXGroup;
+			children = (
+				0BBE698AA7AEE7D810CC7AF6A507680F /* Frameworks */,
+				0B348C9C9F34761FFDC6BF633DCA222C /* Support Files */,
+			);
+			name = FlyyFramework;
+			path = FlyyFramework;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				F00A6DAED4EE4D8ECEFC1D1D33E34D44 /* Pods */,
+				7A06987889C13E3A391107B3D1257731 /* Products */,
+				0DA8052FC394F4D9F8A55B5756C2571E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D70AF8FD8E24972E3AAAF880A8A553FF /* Pods-inviteearndemo */ = {
+			isa = PBXGroup;
+			children = (
+				39486A7FE3AD40B404BE9F474E186453 /* Pods-inviteearndemo.modulemap */,
+				9C64683275482DD0E020AB27C22A8AF4 /* Pods-inviteearndemo-acknowledgements.markdown */,
+				6A332DD9286EDFD66794C806F8975541 /* Pods-inviteearndemo-acknowledgements.plist */,
+				EFFAB7A039F06C53237E805038BBA06F /* Pods-inviteearndemo-dummy.m */,
+				982A1D8F7ED07BCFB51853495BC0C9D3 /* Pods-inviteearndemo-frameworks.sh */,
+				AEE683BA02D1690CC1B66A542A3745F9 /* Pods-inviteearndemo-Info.plist */,
+				ACB1BBEFB39BDD154CB1AC3E6BC654ED /* Pods-inviteearndemo-umbrella.h */,
+				6D51AAC079E0431CDF7A78AE8914D2DD /* Pods-inviteearndemo.debug.xcconfig */,
+				B3F2E8FF14F45FBB71BF5617BE053327 /* Pods-inviteearndemo.release.xcconfig */,
+			);
+			name = "Pods-inviteearndemo";
+			path = "Target Support Files/Pods-inviteearndemo";
+			sourceTree = "<group>";
+		};
+		F00A6DAED4EE4D8ECEFC1D1D33E34D44 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F3D757831BB0B5CACAF75EE04C6A510 /* FlyyFramework */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A5598A6A74AF032717CF974EEE2215F0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				831F9F02A44080764D84C98CAFF6F6C4 /* Pods-inviteearndemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C267EAFD3336F196E1B9DEB585A83BF8 /* Pods-inviteearndemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB73F5DFC0EC9675DD0B15250E269898 /* Build configuration list for PBXNativeTarget "Pods-inviteearndemo" */;
+			buildPhases = (
+				A5598A6A74AF032717CF974EEE2215F0 /* Headers */,
+				45D44C9EFAA44FB33F49365F784E2A4D /* Sources */,
+				F8B4259132E0F717E94A45E53228DF65 /* Frameworks */,
+				F487078859D5B4346B482EB16C6C1726 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D03AE718279F74CCAA53B08103455F6 /* PBXTargetDependency */,
+			);
+			name = "Pods-inviteearndemo";
+			productName = Pods_inviteearndemo;
+			productReference = 54C36ADB85B0D7F488613C4E7EBEFA18 /* Pods-inviteearndemo */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 7A06987889C13E3A391107B3D1257731 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A2B42EC4DECDED783FE377C87B0C7F8 /* FlyyFramework */,
+				C267EAFD3336F196E1B9DEB585A83BF8 /* Pods-inviteearndemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F487078859D5B4346B482EB16C6C1726 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		94E44267B378F25BCA4F5DC3F26BC6A8 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/FlyyFramework/FlyyFramework-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/FlyyFramework/FlyyFramework-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/FlyyFramework/FlyyFramework-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45D44C9EFAA44FB33F49365F784E2A4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E646E01CD23574C778FFA5AA5806315C /* Pods-inviteearndemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D03AE718279F74CCAA53B08103455F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FlyyFramework;
+			target = 0A2B42EC4DECDED783FE377C87B0C7F8 /* FlyyFramework */;
+			targetProxy = 79F7E58063A75D423D7F439CFAE26B97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6C98B09FF5CCB107837D1A84E8F3A4F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7004667B80F72DD87A45214CCB270A5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F37939505257FB0B0AE2108555FD50C /* FlyyFramework.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A1B3FCFB241BCB770EB8FB5F4701561 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31C3125587922805D8340CA55B91489F /* FlyyFramework.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E6A8FF58D100B7F9B1943F455C00F02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C972CF81D70F54CE7AFE5FCFF97B4F80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3F2E8FF14F45FBB71BF5617BE053327 /* Pods-inviteearndemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-inviteearndemo/Pods-inviteearndemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-inviteearndemo/Pods-inviteearndemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FF7B4B9540D3041EE6867E3459F4B760 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D51AAC079E0431CDF7A78AE8914D2DD /* Pods-inviteearndemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-inviteearndemo/Pods-inviteearndemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-inviteearndemo/Pods-inviteearndemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E6A8FF58D100B7F9B1943F455C00F02 /* Debug */,
+				6C98B09FF5CCB107837D1A84E8F3A4F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C108E5906F12ECA21FA7E244B2A350A8 /* Build configuration list for PBXAggregateTarget "FlyyFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7004667B80F72DD87A45214CCB270A5B /* Debug */,
+				8A1B3FCFB241BCB770EB8FB5F4701561 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB73F5DFC0EC9675DD0B15250E269898 /* Build configuration list for PBXNativeTarget "Pods-inviteearndemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF7B4B9540D3041EE6867E3459F4B760 /* Debug */,
+				C972CF81D70F54CE7AFE5FCFF97B4F80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

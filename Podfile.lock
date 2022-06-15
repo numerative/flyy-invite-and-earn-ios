@@ -1,0 +1,16 @@
+PODS:
+  - FlyyFramework (1.3.27)
+
+DEPENDENCIES:
+  - FlyyFramework (= 1.3.27)
+
+SPEC REPOS:
+  trunk:
+    - FlyyFramework
+
+SPEC CHECKSUMS:
+  FlyyFramework: a894f9a96afbd73b3f754dec3536454adc921d4d
+
+PODFILE CHECKSUM: 7f8cbe4ddd5b62529837030c4a0ce0de5538a391
+
+COCOAPODS: 1.11.3
